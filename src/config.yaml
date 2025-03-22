@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: TREzure
+  site: 'https://trezure.cloud'
   base: '/'
   trailingSlash: false
 
