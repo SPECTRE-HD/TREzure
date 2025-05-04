@@ -4,11 +4,17 @@ export const headerData = {
   links: [
     {
       text: 'Home',
+      
       links: [
         {
           text: 'SaaS',
           href: getPermalink('/homes/saas'),
         },
+        {
+          text: 'Onboarding',
+          href: getPermalink('/homes/onboard'),
+        },
+        /**
         {
           text: 'Startup',
           href: getPermalink('/homes/startup'),
@@ -21,10 +27,12 @@ export const headerData = {
           text: 'Personal',
           href: getPermalink('/homes/personal'),
         },
+        */
       ],
     },
     {
       text: 'Pages',
+      /** 
       links: [
         {
           text: 'Features (Anchor Link)',
@@ -55,9 +63,11 @@ export const headerData = {
           href: getPermalink('/privacy'),
         },
       ],
+      */
     },
     {
       text: 'Landing',
+      /** 
       links: [
         {
           text: 'Lead Generation',
@@ -84,6 +94,7 @@ export const headerData = {
           href: getPermalink('/landing/subscription'),
         },
       ],
+      */
     },
     {
       text: 'Blog',
